@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Pacifico&family=Poppins:wght@400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 5px 15px;
+    font-family: Poppins , sans-serif;
+    background-color: #f9f5ed;
+   
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+li{
+    display: inline-block;
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+    color: rgb(4, 7, 33);
+}
+main{
+    display: flex;
+   
+    padding-top: 50px;
+}
+.txt{
+    width: 50%;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+h1{
+    font-size: 60px;
+}
+
+.image{
+    position: relative;
+    width: 50%;
+    padding-left: 150px;
+    left: 50px;
+    
+
+}
+.first{
+    display: flex;
+    margin-left: -12px;
+    
+}
+button{
+    width: 110px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: #3b855b;
+    font-weight: 600;
+    margin-left:15px ;
+    border: none;
+    
+    
+}
+
