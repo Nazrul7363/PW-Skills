@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Pacifico&family=Poppins:wght@400;600;700&family=Red+Rose:wght@300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Red Rose , cursive;
+    color: rgb(241, 208, 26);
+    height: 700;
+    width: 900;
+    overflow: hidden;
+    
+
+}
+/* body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/assets/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 25px;
+    overflow: hidden;
+    
+} */
+body {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("/assets/bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px;
+  }
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+}
+
+a{
+    text-decoration: none;
+    
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 550px;
+    margin-left: 32%;
+    margin-top:100px;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+div>button{
+    height: 50px;
+    width: 200px;
+    position: relative;
+    left: 170px;
+    background-color: #ff505f;
+    color: white;
+    border: none;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+nav>button{
+    height: 35px;
+    width: 100px;
+    background-color:#ff505f;
+    color: white;
+    border: none;
+    font-weight: bolder;
+    font-size: medium;
+}
+footer{
+    float: right;
+}
+
+
+
