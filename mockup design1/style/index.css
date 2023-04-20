@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,900;1,300;1,400&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Poppins:ital,wght@0,300;0,400;0,900;1,300;1,400&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Pacifico&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    background-color:#edf1fd;
+    color: rgb(2, 10, 7);
+}
+nav{
+    display: flex;
+    height: 60px;
+    
+    align-items: center;
+    position: relative;
+    justify-content: space-around;
+    
+}
+
+ul{
+    display: flex;
+  
+    justify-content: space-between;
+    width: 200px;
+    list-style-type: none;
+    font-weight: 600;
+    
+
+}
+a{
+    text-decoration: none;
+}
+
+section{
+    display:flex;
+    height: 87vh;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+.iconsection{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 120px;
+}
+.imagesection>button{
+    position: relative;
+    top: 30px;
+    left: -180px;
+    padding: 1.5px 10px;
+    background-color: rgb(18, 155, 155);
+    color:white;
+    border-color: white;
+}
+nav>p{
+    font-family: Pacifico,sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color:rgb(12, 103, 103) ;
+    
+}
+span{
+    color: rgb(18, 155, 155);;
+}
+h1>span{
+    font-size: larger;
+    background-color: rgba(212, 209, 209, 0.781);
+    padding: 3px 5px;
+}
+.textsection{
+    padding-left: 90px;
+    width: 50vw;
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(18, 155, 155);
+    border: 1px solid black;
+    
+  }
+  .imagesection{
+    padding-left: 160px;
+  }
+  footer{
+    
+    font-weight: 600px;
+  }
+  .copyright{
+    font-size: 12px;
+  }
+  button{
+    height: 30px;
+    padding: 0px 10px;
+    background-color: rgb(18, 155, 155);
+    color:white;
+    border-color: white;
+  }
+  input{padding: 0px 10px;
+height: 30px;}
+
+  nav ul li:hover {
+    text-decoration: underline;
+    font-weight: 900;
+  }
+ 
+
+
