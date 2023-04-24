@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Pacifico&family=Poppins:wght@400;600;700&family=Red+Rose:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: Poppins ,sans-serif;
+}
+nav{
+    background-color: black;
+    padding:0px 50px;
+    display: flex;
+    justify-content: space-between;
+    height: 8.5vh;
+    align-items: center;
+   
+    
+
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    
+    list-style: none;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+hr{
+    direction: vertical;
+}
+.vl{
+    position: relative;
+    height: 40px;
+    width: 1px;
+    background-color: white;
+}
+main{
+    
+    background-image: url("/assets/bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+    height:91.5vh;
+    text-align: center;
+    
+    
+    
+}
+button{
+    border: none;
+    background-color: #BD08C1;
+    border-radius: 5px ;
+    height: 25px;
+    width: 100px;
+}
+h1,p,main>button{
+    position: relative;
+    top: 24%;
+}
+h1{
+    font-weight: bold;
+    font-size: 65px;
+}
+p{
+    font-size: 27px;
+}
+main>button{
+    height: 40px;
+    width: 300px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
