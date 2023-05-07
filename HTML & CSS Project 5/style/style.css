@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: ease all .5s;
+    
+}
+body{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 0.4fr 2.2fr 0.3fr 3.6fr 0.3fr 0.5fr ;
+    text-align: center;
+    background-color:#111827;
+    color: white;
+    transition: ease all .5s;
+}
+
+header{
+    background-color:rgb(31, 111, 181);
+    /* height:30px; */
+    display: fixed;
+   
+}
+nav{
+    background-color: rgb(2, 11, 6);
+    height:40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    gap: 40px;
+
+}
+li{
+    display: inline-block;
+    padding: 10px;
+
+}
+.menu{
+    
+    visibility: hidden;
+    
+}
+.intro{
+   
+    display: flex;
+    justify-content: center;
+}
+
+.underline{
+    height:5px;
+    width: 125px;
+    background-color: blue;
+}
+.project{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+.p_under>.underline{
+    width: 70px;
+}
+
+
+
+section{
+    display:grid;
+    grid-template-columns:1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    
+}
+ .img1,.img3{
+    float: right !important;
+    padding-right: 5px;
+}
+.img2,.img4{
+    float:left !important;
+    padding-left: 5px;
+} 
+li>button{
+    background-color: blue;
+    border: none;
+    padding: 2px 5px;
+    border-radius: 3px;
+    color: white;
+}
+.text{
+    text-align: initial;
+    padding-top: 50px;
+    font-size: x-large;
+    padding-right: 30px;
+}
+.hi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -70px;
+}
+figcaption{
+    color: rgb(201, 195, 195);
+}
+#name{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+
+
+
+/* for smaller screen */
+@media(max-width: 640px){
+   
+    .menu{
+    
+        visibility: visible;
+        
+    }
+    ul{
+        visibility:hidden;
+    }
+    .intro{
+        display: block;
+    }
+    section{
+       display: grid;
+       grid-template-columns: 1fr;
+       
+
+    }
+    .img1,.img3{
+       
+     
+        width: 100%;
+        
+       
+    }
+    .img2,.img4{
+       
+        width: 100%;
+    } 
+    .text{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top:0px;
+        padding-bottom: 2px;
+        
+    }
+    .hi{
+        display: block;
+        
+    }
+    .hi{
+       
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+    }
+    
+    
+
+}
+
