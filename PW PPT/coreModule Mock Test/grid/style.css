@@ -1,0 +1,64 @@
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+    grid-template-rows: 1fr ;
+    gap: 5px;
+    grid-template-areas:
+      "container1 container2";
+      
+    height: 100vh;
+  }
+  .container1{
+    grid-area:container1;
+    background-color: white;
+
+  }
+  .container2{
+    grid-area:container2;
+    background-color:white;
+
+  }
+
+
+  .container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+    gap: 5px;
+    grid-template-areas:
+      "mbox1 mbox2"
+      "bbox bbox";
+      
+    height: 100vh;
+  }
+  .mbox1 ,.mbox2  {
+    grid-area:mbox1 , mbox2 ;
+    background-color: black;
+
+  }
+  
+  .bbox{
+    grid-area:bbox;
+    background-color:black;
+
+  }
+  .container2 {
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5px;
+    grid-template-areas:
+      "sbox1"
+      "sbox2 "
+      "sbox3";
+      
+    height: 100vh;
+  }
+  .sbox1 ,.sbox2,.sbox3 {
+    grid-area:mbox1 , mbox2 ;
+    background-color:black;
+
+  }
+  
+  
+  

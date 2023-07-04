@@ -1,0 +1,90 @@
+1. Static:
+   - Static positioning is the default position for elements, where they follow the normal document flow.
+   - Elements with static positioning are not affected by the top, right, bottom, or left properties.
+   
+   -Example:
+
+   <style>
+     .static-box {
+       position: static;
+     }
+   </style>
+
+   <div class="static-box">
+     This is a static positioned box.
+   </div>
+
+
+2. Fixed:
+   - Fixed positioning positions an element relative to the viewport, regardless of scrolling.
+   - The element remains fixed in its position even when the page is scrolled.
+   
+   -Example
+
+   <style>
+     .fixed-box {
+       position: fixed;
+       top: 10px;
+       right: 10px;
+     }
+   </style>
+
+   <div class="fixed-box">
+     This is a fixed positioned box.
+   </div>
+ 
+
+3. Sticky:
+   - Sticky positioning is a hybrid of relative and fixed positioning.
+   - The element behaves like a relatively positioned element until it reaches a specified threshold, and then it becomes fixed.
+   
+   -Example
+
+   <style>
+     .sticky-box {
+       position: sticky;
+       top: 20px;
+     }
+   </style>
+
+   <div class="sticky-box">
+     This is a sticky positioned box.
+   </div>
+  
+
+4. Relative:
+   - Relative positioning positions an element relative to its normal position.
+   - The element can be moved using top, right, bottom, or left properties.
+   
+   -Example
+
+   <style>
+     .relative-box {
+       position: relative;
+       top: 20px;
+       left: 50px;
+     }
+   </style>
+
+   <div class="relative-box">
+     This is a relatively positioned box.
+   </div>
+  
+
+5. Absolute:
+   - Absolute positioning positions an element relative to its closest positioned ancestor or to the initial containing block.
+   - The element is taken out of the normal document flow.
+
+   -Example
+
+   <style>
+     .absolute-box {
+       position: absolute;
+       top: 50px;
+       right: 50px;
+     }
+   </style>
+
+   <div class="absolute-box">
+     This is an absolutely positioned box.
+   </div>
