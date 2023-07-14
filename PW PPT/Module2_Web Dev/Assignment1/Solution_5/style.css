@@ -1,0 +1,41 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    
+    
+}
+
+img{
+    height: 700px;
+    width: 100vw;
+    padding:  5px;
+    margin-bottom: 50px;
+}
+.space{
+    margin: 40px;
+}
+.main{
+    margin-left: 60px;
+    list-style-type:disc;
+
+
+}
+.sub{
+ margin-left:100px;
+ list-style-type: circle;
+}
+
+#name{
+    margin-left: 40px;
+}
+#phone{
+    margin-left: 14px;
+}
+#email{
+    margin-left: 22px;
+}
+label,input{
+    margin: 2px;
+    padding: 3px;
+}
