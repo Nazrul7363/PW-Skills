@@ -1,0 +1,73 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.4fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "smallerbox biggerbox biggerbox" 
+        "Darkgrey Darkgrey Darkgrey"
+        "box box2 box3"
+        "footer footer footer";
+    height: 100vh;
+    width: 100vw;
+    gap: 0.5rem;
+  
+}
+
+
+
+.smallerbox {
+    grid-area: smallerbox;
+    background-color: lightblue;
+}
+
+.biggerbox {
+    grid-area: biggerbox;
+    background-color: lightgray;
+}
+
+.Darkgrey {
+    grid-area: Darkgrey;
+    background-color: darkgray;
+}
+
+.box {
+    grid-area: box;
+    background-color: lightskyblue;
+}
+.box2 {
+    grid-area: box2;
+    background-color: lightskyblue;
+}
+
+.box3 {
+    grid-area:box3;
+    background-color: lightskyblue;
+}
+
+footer {
+    grid-area: footer;
+    background-color: lightgray;
+}
+
+@media (max-width: 377px){
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.4fr 2fr 1fr 1fr 1fr 1.5fr ;
+    grid-template-areas: 
+        "smallerbox biggerbox biggerbox" 
+        "Darkgrey Darkgrey Darkgrey"
+        "box box box"
+        "box2 box2 box2"
+        "box3 box3 box3"
+        "footer footer footer";
+  
+    gap: 0.5rem;
+    
+  
+}
+
+}
+    
+
