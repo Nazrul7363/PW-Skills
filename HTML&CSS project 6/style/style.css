@@ -1,0 +1,378 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Pacifico&family=Poppins:wght@200;400;600;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color:#0f0f10;
+    color: #ffffff;
+    font-family: "Poppins" , sans-serif;
+}
+body {
+    margin: 0px 15vw;
+    
+  }
+  
+  
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 14px;
+    
+  }
+  ul{
+    display: flex;
+    gap: 50px;
+  }
+  li{
+    list-style: none;
+    z-index: 1;
+    background-color: transparent;
+    
+    
+  }
+  #nav{
+    display: flex;
+    gap: 40px;
+  }
+  button{
+    padding: 13px 50px;
+    font-family: inherit;
+    border-radius: 10px;
+    background-color:#1e1e21;
+    position: relative;
+    top: -9px;
+    font-size: medium;
+    height: 45px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  section{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 85px;
+  }
+  
+  .buyNowText{
+    background-color: transparent;
+    width: 200px;
+  }
+ 
+  
+
+
+  .buyNowImage{
+    background-color: transparent;
+    
+  }
+
+  span{
+    background-color: transparent;
+  }
+  .text{
+    width: 350px;
+  }
+  img[alt~="main_img"]{
+    position: relative;
+    top: -250px;
+    transform: scale(0.9);
+    left: 30px;
+    
+  }
+  .img_text{
+    position: relative;
+    padding-top: 90px;
+    right: 15px;
+
+  }
+  h1{
+    font-size:50px;
+  }
+  img[alt~="onEar"]{
+    position: relative;
+    left: 70px;
+    
+  }
+  .social_media{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .specs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 150px;
+  }
+  .specs_logo{
+    display: inline-block;
+    padding-top:5% ;
+    margin: 20px;
+  }
+  .s_list{
+    display: flex;
+    gap: 100px;
+  }
+  .s_items{
+    display: block;
+    width: 300px;
+    
+
+  }
+  .s_items>div{
+    padding: 10px;
+
+  }
+
+#one,#four{
+    padding-left: 40px;
+
+    
+
+  }
+  .specs_img{
+    position: relative;
+    top: 50px;
+    height: 325px;
+  }
+
+  .case{
+    display:block;
+   
+  }
+  .case_logo{
+    padding: 130px;
+    
+    
+  }
+  .case_cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+
+  }
+  .text{
+    width: 170px;
+    font-size: 13px;
+  }
+  img[alt~="case_logo"]{
+    position: relative;
+    left: 47%;
+
+  }
+  img[alt~="specsLogo"]{
+    position: relative;
+    left: 47%;
+
+  }
+ #more{
+  display: flex;
+  background-color:#1e1e21;
+  height: 40px;
+  width: 150px;
+  align-items: center;
+  
+  justify-content: space-evenly;
+  border-radius: 7px;
+  
+
+ }
+ .buyNow{
+  display:flex;
+  background-color: #1e1e21;
+  padding: 50px;
+  border-radius: 15px;
+  margin: 120px 0px;
+  align-items: center;
+  
+  
+ }
+ .buyNowText h3 , p,div{
+  background-color: transparent;
+  }
+
+ .chooseYourStyle{
+  display: flex;
+  flex-direction: column;
+  
+ }
+ 
+ img[alt~="productLogo"]{
+  margin: 60px 30%;
+  transform: scale(0.7);
+}
+ .product-card{
+  display: flex;
+  flex-direction: column;
+  background-color: #1e1e21;
+  width: 200px;
+  height: 220px;
+  border-radius: 15px;
+  transform:scale(0.8);
+ }
+ img[alt~="proImage"]{
+  transform: scale(0.7);
+  background: transparent;
+  margin-top: -100px;
+  position: relative;
+ 
+  
+ 
+}
+
+.productInfo{
+  display: flex;
+  
+  justify-content: space-around;
+  position: relative;
+  margin-top: -10px;
+  align-items: center;
+
+  
+}
+img[alt~="shopping-bag"]{
+  
+  padding: 10px;
+  background: transparent;
+  
+
+}
+img[alt~="foldedHeadset"]{
+  background-color: transparent;
+}
+.productInfo>div{
+  border-radius: 8px;
+  height: 45px;
+}
+
+.productItemsList{
+  width: 500px;
+ 
+  display: grid;
+  grid-template-columns:1fr 1fr ;
+  gap: 20px;
+  
+}
+.productItems{
+  padding-left: 150px;
+}
+
+.footerContainer{
+  margin-top: 90px;
+  display: flex;
+  gap: 130px;
+}
+.Product>ul,.support>ul{
+  display: flex;
+  flex-direction: column;
+  width: 130px;
+  gap: 10px;
+
+}
+a{
+  text-decoration: none;
+}
+.email{
+  background-color: #1e1e21;
+  height: 60px;
+  width: 390px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding:10px ;
+  gap: 50px;
+
+}
+input{
+  background: transparent;
+  border: none;
+
+  position: relative;
+  left: 20px;
+
+}
+.subscribe-button{
+  background: #0A0A0B;
+  border-radius: 8px;
+  padding: 10px 20px;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+img[alt~="arrowUp"]{
+  position:relative;
+  float: right;
+  left: 15vw;
+  top: -180px;
+}
+
+#addToBag{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  height: 45px;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+  justify-content: space-around;
+ 
+}
+#addToBag span{
+  font-size: 14px;
+
+}
+span p,b{
+  width: 100px;
+}
+
+.buyNow button{
+  background-color: black;
+  top: 20px;
+  border: none;
+  height: 40px;
+  width: 140px;
+  margin: 1px;
+}
+
+.s_items div p{
+  font-size: 14px;
+
+}
+.Product{
+  font-size: 14px;
+}
+.support{
+  font-size: 14px;
+}
+img[alt~="Pshopping-bag"]{
+  background-color: black;
+  border-radius: 9px;
+  padding: 7px;
+  position: relative;
+  top: 10px;
+  
+}
+.sb{
+  
+  width: 20px;
+  height: 10px;
+}
+.productInfo span{
+  font-size: 13px;
+}
+
+
+
+
+
